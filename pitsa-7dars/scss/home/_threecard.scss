@@ -1,0 +1,55 @@
+
+    .card-eats {
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 328px;
+        justify-content: space-around;
+        gap: 15px;
+        // z-index: 999;
+        position: relative;
+        top: -100px;
+
+  
+        .wrapper__eat1 {
+          background: #ffffff;
+          box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+        }
+        .wrapper__eat2 {
+          background: #ffffff;
+          box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+        }
+        .wrapper__eat3 {
+          background: #ffffff;
+          box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+        }
+  
+        .wrapper__eat1 h3,
+        .wrapper__eat2 h3,
+        .wrapper__eat3 h3 {
+          text-align: center;
+          font-size: 26px;
+          font-weight: 400;
+          font-family: "Tinos", serif;
+        }
+        .wrapper__eat1 span,
+        .wrapper__eat2 span,
+        .wrapper__eat3 span {
+          color: #bc9060;
+        }
+        .wrapper__eat1 p,
+        .wrapper__eat2 p,
+        .wrapper__eat3 p {
+          font-size: 26px;
+          font-weight: 400;
+          font-family: "Tinos", serif;
+          text-align: center;
+          color: #656363;
+  
+        }
+        .wrapper__eat1 img,
+        .wrapper__eat2 img,
+        .wrapper__eat3 img {
+          margin-left: 130px;
+          margin-top: 30px;
+        }
+      }

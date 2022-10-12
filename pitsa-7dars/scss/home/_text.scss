@@ -1,0 +1,50 @@
+.text {
+    margin-top: 17px;
+    
+  .text-rus {
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .text_nikolay {
+        width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background: #E5E5E5;
+    }
+    .text_nikolay p {
+      margin-top: 97px;
+      width: 920px;
+      height: 52px;
+      text-align: center;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+      text-align: center;
+      color: #000;
+      font-family: "Open Sans", sans-serif;
+    }
+
+    .text_nikolay img {
+      margin-top: 76px;
+    }
+    .text_nikolay h4 {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 27px;
+      font-family: "Open Sans", sans-serif;
+      color: #000000;
+    }
+    .text_nikolay small {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+      color: #000000;
+      font-family: "Open Sans", sans-serif;
+    }
+  }
+}
