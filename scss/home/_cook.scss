@@ -1,0 +1,42 @@
+.cook {
+    margin-top: 100px;
+
+  .cook-head {
+    font-size: 54px;
+    font-weight: 400;
+    font-family: "Tinos", serif;
+    text-align: center;
+  }
+  .cook-head span {
+    color: #d67e34;
+  }
+  .cooking {
+    display: grid;
+    // height: 462px;
+    grid-template-columns: repeat(3, 362px);
+    grid-template-rows: 462px;
+    justify-content: center;
+    gap: 30px;
+  }
+  .contend-cooking {
+    background-size: cover;
+    background-image: url("../../images/cook/Mask\ Group\ \(6\).svg");
+  }
+  .contend-cooking1 {
+    background-size: cover;
+    background-image: url("../../images/cook/pizza-366111_1280\ 1.svg");
+  }
+  .contend-cooking2 {
+    background-size: cover;
+    background-image: url("../../images/cook/image\ 4.svg");
+  }
+
+  .footer{
+    margin-top: 100px;
+    height: 732px;
+    background-image: url("../../images/cook/MAKE\ A\ RESERVATION.png");
+    background-size: cover;
+   
+
+  }
+}

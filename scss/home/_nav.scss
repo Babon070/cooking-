@@ -1,0 +1,53 @@
+.nav {
+  position: relative;
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+
+  &__ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    margin-left: 300px;
+
+    &--li a{
+       color: #fff;
+       font-size: 14px;
+       font-weight: 700;
+       font-family: 'Open Sans', sans-serif;
+    }
+  }
+
+  &__ul2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+
+    &--li2 {
+      width: 154px;
+      height: 38px;
+    }
+  }
+  .nav__ul2--li2 a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+
+  .nav__ul::after {
+    content: "";
+    width: 0px;
+    height: 51px;
+    background-color: rgb(3, 3, 3);
+    border: 1px solid #fff;
+  }
+
+  .nav__ul--li-btn, .nav__ul--li-btn a {
+    @extend %btn-zakaz-stolik;
+    color: #fff;  
+  }
+}

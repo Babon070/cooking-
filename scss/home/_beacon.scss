@@ -1,0 +1,44 @@
+.beacon{
+
+
+    .beacon__block{
+        margin-top: 50px;
+    }
+
+    .beacon_grid{
+        display: grid;
+        // width: 100%;
+        height: 474px;
+        grid-template-columns: repeat(1fr 2fr);
+        grid-template-rows: repeat(1fr 2fr);
+
+       
+    }
+
+    // .grid{
+        
+    //     background-color: rgb(80, 23, 23);
+    // }
+    .item1{
+        grid-column: 1/3;
+        grid-row: 1/2;
+        background-color: rgb(35, 171, 55);
+    }
+
+    // .item2{
+    //     background-color: rgba(113, 73, 232, 0.667);
+    // }
+
+    // .item3{
+       
+    //     background-color: rgb(20, 5, 35);
+    // }
+    // .item4{
+       
+    //     background-color: rgb(206, 35, 35);
+    // }
+    // .item5{
+       
+    //     background-color: rgb(183, 211, 42);
+    // }
+}

@@ -1,0 +1,22 @@
+%btn-zakaz-stolik {
+  width: 157px;
+  height: 47px;
+  background: $bg-btn;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+%intro-btn {
+  width: 137px;
+  height: 47px;
+  background: $bg-btn;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+}

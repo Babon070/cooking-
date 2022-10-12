@@ -1,0 +1,86 @@
+header {
+  width: 100%;
+  height: 90px;
+  background-image: url("../../images/hero\ image.png");
+  height: 800px;
+  background-attachment: fixed;
+  background-size: cover;
+
+  .wrapper {
+    width: 556px;
+    height: 179px;
+    margin-left: 25px;
+    border-radius: 5px solid white;
+    text-align: center;
+    position: relative;
+
+    .wrap__title {
+      position: relative;
+    }
+    .titles h1 {
+      position: absolute;
+      top: 250px;
+      width: 556px;
+      height: 85px;
+      font-weight: 400;
+      font-size: 80px;
+      line-height: 92px;
+      font-family: "Tinos", serif;
+      color: #d67e35;
+    }
+
+    .titles h2 {
+      position: absolute;
+      top: 200px;
+      left: 20px;
+      width: 430px;
+      height: 57px;
+      font-weight: 400;
+      font-size: 50px;
+      line-height: 57px;
+      font-family: "Tinos", serif;
+      color: #d67e35;
+      margin-left: 50px;
+    }
+
+    .titles p {
+      position: absolute;
+      top: 400px;
+      left: 200px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      font-family: "Open Sans", sans-serif;
+      color: #ffffff;
+    }
+    .titles p::after {
+      position: absolute;
+      top: -1px;
+      content: "";
+      right: 180px;
+      width: 61px;
+      height: 2px;
+      background: #c4c4c4;
+      display: block;
+    }
+    .titles p::before {
+      position: absolute;
+      content: "";
+      left: 180px;
+      width: 61px;
+      height: 2px;
+      background: #c4c4c4;
+      display: block;
+    }
+
+    .intro-btn {
+      @extend %intro-btn;
+      position: absolute;
+      top: 480px;
+      left: 210px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
